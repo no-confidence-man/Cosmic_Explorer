@@ -29,5 +29,5 @@ circles = gis.content.search(
     max_items=10000
 )
 ```
-This is why appropriate, distinct naming and tagging is so important in generating content for your account. The more content you publish, the more you want to make sure that names are distinguishable between, say, buffers for road mapping and and buffers for building extraction.
+   This is why appropriate, distinct naming and tagging is so important in generating content for your account. The more content you publish, the more you want to make sure that names are distinguishable between, say, buffers for road mapping and and buffers for building extraction.
 - If you have problems, feel free to shoot me an email! I would be happy to help. You know my name, so you should be able to find my email. 
