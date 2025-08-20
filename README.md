@@ -1,6 +1,14 @@
 This is an API for Cosmic Explorer site evaluation, developed for ArcGIS in Python. 
 
-You will have to pip install or conda install arcgis arcgis-mapping before running the code. 
+You will have to install the following libraries before running the code. 
+- arcgis
+- geopandas
+- shapely
+- pyprojconda
+  Here is how to install them in your Jupyter terminal.
+```
+pip install arcgis arcgis-mapping geopandas shapely pyproj
+```
 
 Start with the file titled "setting_up." There are two ways of logging into your ArcGIS online account, and the comments in "setting_up" will walk you through it. The code in "setting_up" will convert the KML files of the Cosmic Explorer sites to hosted feature layers, and publish them to your ArcGIS Online web map. KMLs must be converted to feature layers for ArcGIS to run any spatial analysis on them.
 
