@@ -27,7 +27,7 @@ You will see that my code often generates "buffers" and publishes them to your w
 
 Some things to note when running the code: 
 - You will need to define file paths. Places where file paths need to be defined are clearly delineated with a comment in the code.
-- When running spatial analysis on content available on your ArcGIS account, the code first essentially "searches" for content on your ArcGIS Online. To find layers that you want to buffer, you can filter by title, tags, or feature type. This is why appropriate, distinct naming and tagging is so important in generating content for your account. The more content you publish, the more you want to make sure that names are distinguishable between, say, buffers for road mapping and and buffers for building extraction. For example, when running my code to map roads on zero-building sites, I look for the buffers I am interested in as follows:
+- When running spatial analysis on content available on your ArcGIS Online account, the code first essentially "searches" for content on your account. To find layers that you want to buffer, you can filter by title, tags, or feature type. This is why appropriate, distinct naming and tagging is so important in generating content for your account. The more content you publish, the more you want to make sure that names are distinguishable between, say, buffers for road mapping and and buffers for building extraction. For example, when running my code to map roads on zero-building sites, I look for the buffers I am interested in as follows:
 ```
 circles = gis.content.search(
     f"title: 10km, zero, Idaho, Buffer AND owner:{gis.properties.user.username}",
