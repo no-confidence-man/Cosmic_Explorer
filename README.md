@@ -9,10 +9,11 @@ You will have to install the following libraries before running the code.
 - geopandas
 - shapely
 - pyproj
+- pykml
 
 Paste the following codeblock in your terminal to install them:
 ```
-pip install arcgis arcgis-mapping geopandas shapely pyproj
+pip install arcgis arcgis-mapping geopandas shapely pyproj pykml
 ```
 
 ## Usage
