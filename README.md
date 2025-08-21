@@ -1,4 +1,4 @@
-# Read me!
+# API for Cosmic Explorer site evaluation
 
 ## Libraries
 
@@ -10,7 +10,7 @@ You will have to install the following libraries before running the code.
 - shapely
 - pyproj
 
-Paste the following codeblock in your Anaconda terminal to install them:
+Paste the following codeblock in your terminal to install them:
 ```
 pip install arcgis arcgis-mapping geopandas shapely pyproj
 ```
