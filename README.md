@@ -8,12 +8,16 @@ You will have to install the following libraries before running the code.
 - arcgis
 - geopandas
 - shapely
+- gdal
 - pyproj
 - pykml
 
 Paste the following codeblock in your terminal to install them:
 ```
 pip install arcgis arcgis-mapping geopandas shapely pyproj pykml
+```
+```
+conda install -c conda-forge gdal
 ```
 
 ## Usage
@@ -36,4 +40,5 @@ circles = gis.content.search(
     max_items=10000
 )
 ```
-- If you have problems, feel free to shoot me an email! I would be happy to help. If you're using this code, you should know my name and you should be able to find my email address. 
+- If you have problems, feel free to shoot me an email! I would be happy to help. If you're using this code, you should know my name and you should be able to find my email address.
+
